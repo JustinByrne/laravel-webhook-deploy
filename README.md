@@ -2,7 +2,7 @@
 
 ## Installation
 
-There are things that need to be setup prior to using the webhook.
+There are things that need to be setup prior to using the webhook. You will also need to make sure you are using the HTTPS version of the github repo, as the SSH version will not run the `git pull` command correctly.
 
 ### Step 1. Add webhook secret to `.env` 
 
